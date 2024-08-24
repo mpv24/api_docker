@@ -1,0 +1,9 @@
+{
+   
+    "host": "localhost",
+    "user": "manuela",
+    "password": "manuela24",
+    "database": "carros",
+    "port": 3306
+    
+}
