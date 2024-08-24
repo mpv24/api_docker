@@ -46,7 +46,7 @@ router.post('/cars', async (req, res) => {
 
 router.put('/carsUpdate/:id', async (req, res) => {
     const { id } = req.params;
-    const { Nombre, Usuario, Pass } = req.body;
+    const { make, model, year, color } = req.body;
     try {
         const result = await carrosModel.updateCars(id, make, model, year, color);
         if (result.affectedRows === 0) {
